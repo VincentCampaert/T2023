@@ -1,0 +1,12 @@
+D:\Webdev semester 2\WebApplicatieWebdev\WebCommon\bin\Debug\net7.0\WebCommon.deps.json
+D:\Webdev semester 2\WebApplicatieWebdev\WebCommon\bin\Debug\net7.0\WebCommon.dll
+D:\Webdev semester 2\WebApplicatieWebdev\WebCommon\bin\Debug\net7.0\WebCommon.pdb
+D:\Webdev semester 2\WebApplicatieWebdev\WebCommon\obj\Debug\net7.0\WebCommon.csproj.AssemblyReference.cache
+D:\Webdev semester 2\WebApplicatieWebdev\WebCommon\obj\Debug\net7.0\WebCommon.GeneratedMSBuildEditorConfig.editorconfig
+D:\Webdev semester 2\WebApplicatieWebdev\WebCommon\obj\Debug\net7.0\WebCommon.AssemblyInfoInputs.cache
+D:\Webdev semester 2\WebApplicatieWebdev\WebCommon\obj\Debug\net7.0\WebCommon.AssemblyInfo.cs
+D:\Webdev semester 2\WebApplicatieWebdev\WebCommon\obj\Debug\net7.0\WebCommon.csproj.CoreCompileInputs.cache
+D:\Webdev semester 2\WebApplicatieWebdev\WebCommon\obj\Debug\net7.0\WebCommon.dll
+D:\Webdev semester 2\WebApplicatieWebdev\WebCommon\obj\Debug\net7.0\refint\WebCommon.dll
+D:\Webdev semester 2\WebApplicatieWebdev\WebCommon\obj\Debug\net7.0\WebCommon.pdb
+D:\Webdev semester 2\WebApplicatieWebdev\WebCommon\obj\Debug\net7.0\ref\WebCommon.dll
