@@ -12,6 +12,7 @@ builder.Services.Configure<CookiePolicyOptions>(options =>
     options.MinimumSameSitePolicy = SameSiteMode.None;
     options.ConsentCookieValue = "true";
 });
+builder.Services.AddAutoMapper(typeof());
 
 var app = builder.Build();
 

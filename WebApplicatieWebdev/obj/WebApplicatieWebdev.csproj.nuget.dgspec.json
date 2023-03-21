@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Webdev semester 2\\WebApplicatieWebdev\\WebApplicatieWebdev\\WebApplicatieWebdev.csproj": {}
+    "C:\\HBO-ICT Jaar 4\\Webdev2\\T2023\\WebApplicatieWebdev\\WebApplicatieWebdev.csproj": {}
   },
   "projects": {
-    "D:\\Webdev semester 2\\WebApplicatieWebdev\\WebApplicatieWebdev\\WebApplicatieWebdev.csproj": {
+    "C:\\HBO-ICT Jaar 4\\Webdev2\\T2023\\WebApplicatieWebdev\\WebApplicatieWebdev.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Webdev semester 2\\WebApplicatieWebdev\\WebApplicatieWebdev\\WebApplicatieWebdev.csproj",
+        "projectUniqueName": "C:\\HBO-ICT Jaar 4\\Webdev2\\T2023\\WebApplicatieWebdev\\WebApplicatieWebdev.csproj",
         "projectName": "WebApplicatieWebdev",
-        "projectPath": "D:\\Webdev semester 2\\WebApplicatieWebdev\\WebApplicatieWebdev\\WebApplicatieWebdev.csproj",
-        "packagesPath": "C:\\Users\\Niels\\.nuget\\packages\\",
-        "outputPath": "D:\\Webdev semester 2\\WebApplicatieWebdev\\WebApplicatieWebdev\\obj\\",
+        "projectPath": "C:\\HBO-ICT Jaar 4\\Webdev2\\T2023\\WebApplicatieWebdev\\WebApplicatieWebdev.csproj",
+        "packagesPath": "C:\\Users\\black\\.nuget\\packages\\",
+        "outputPath": "C:\\HBO-ICT Jaar 4\\Webdev2\\T2023\\WebApplicatieWebdev\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Niels\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\black\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Webdev semester 2\\WebApplicatieWebdev\\WebCommon\\WebCommon.csproj": {
-                "projectPath": "D:\\Webdev semester 2\\WebApplicatieWebdev\\WebCommon\\WebCommon.csproj"
+              "C:\\HBO-ICT Jaar 4\\Webdev2\\T2023\\WebCommon\\WebDev.Web.Common.csproj": {
+                "projectPath": "C:\\HBO-ICT Jaar 4\\Webdev2\\T2023\\WebCommon\\WebDev.Web.Common.csproj"
               }
             }
           }
@@ -43,6 +43,16 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "reCAPTCHA.AspNetCore": {
+              "target": "Package",
+              "version": "[3.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -62,21 +72,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Webdev semester 2\\WebApplicatieWebdev\\WebCommon\\WebCommon.csproj": {
+    "C:\\HBO-ICT Jaar 4\\Webdev2\\T2023\\WebCommon\\WebDev.Web.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Webdev semester 2\\WebApplicatieWebdev\\WebCommon\\WebCommon.csproj",
-        "projectName": "WebCommon",
-        "projectPath": "D:\\Webdev semester 2\\WebApplicatieWebdev\\WebCommon\\WebCommon.csproj",
-        "packagesPath": "C:\\Users\\Niels\\.nuget\\packages\\",
-        "outputPath": "D:\\Webdev semester 2\\WebApplicatieWebdev\\WebCommon\\obj\\",
+        "projectUniqueName": "C:\\HBO-ICT Jaar 4\\Webdev2\\T2023\\WebCommon\\WebDev.Web.Common.csproj",
+        "projectName": "WebDev.Web.Common",
+        "projectPath": "C:\\HBO-ICT Jaar 4\\Webdev2\\T2023\\WebCommon\\WebDev.Web.Common.csproj",
+        "packagesPath": "C:\\Users\\black\\.nuget\\packages\\",
+        "outputPath": "C:\\HBO-ICT Jaar 4\\Webdev2\\T2023\\WebCommon\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Niels\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\black\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -123,7 +133,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

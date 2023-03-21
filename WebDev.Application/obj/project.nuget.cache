@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "UN5wN4Qk4I+1oWXI3NBa8GPzJrUHLwmQQf0ekukIqBzF/scQcmFNTCvXiB5ZQvxk73ffjBddCH1eBeaTO6IMQg==",
+  "success": true,
+  "projectFilePath": "C:\\HBO-ICT Jaar 4\\Webdev2\\T2023\\WebDev.Application\\WebDev.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\black\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\black\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

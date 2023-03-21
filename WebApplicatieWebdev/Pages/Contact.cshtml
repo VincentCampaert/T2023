@@ -1,0 +1,32 @@
+﻿@page
+@model WebApplicatieWebdev.Pages.ContactModel
+@{
+    ViewData["Title"] = "Contact Developer";
+}
+
+<div class="container py-4">
+    <form id="contactForm" method="post">
+        <div asp-validation-summary="All" class="text-danger"></div>
+
+        <div class="mb-3">
+            <label class="form-label" for="subject">Subject</label>
+            <input class="form-control" id="subject" name="subject" type="text" placeholder="Email Subject" maxlength="200" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label" for="emailAddress">Email Address</label>
+            <input class="form-control" id="emailAddress" name="email" type="email" placeholder="Email Address" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label" for="message">Message</label>
+            <textarea class="form-control" id="message" name="message" type="text" placeholder="Message" maxlength="600" style="height: 10rem;"></textarea>
+        </div>
+
+        <div class="mb-3 g-recaptcha" data-sitekey="6LewDRglAAAAAO7GKJXWVUxjLwnIJEuK5MHEfCtr"></div>
+
+        <div class="d-grid">
+            <button class="btn btn-primary btn-lg" type="submit">Submit</button>
+        </div>
+    </form>
+</div>
