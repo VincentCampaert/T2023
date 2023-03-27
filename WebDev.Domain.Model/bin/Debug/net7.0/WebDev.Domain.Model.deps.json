@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "WebDev.Domain.Model/1.0.0": {
+        "runtime": {
+          "WebDev.Domain.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WebDev.Domain.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

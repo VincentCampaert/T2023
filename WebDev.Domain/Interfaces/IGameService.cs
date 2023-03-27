@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WebDev.Domain.Models;
+using WebDev.Domain.Model.Game;
 
 namespace WebDev.Domain.Interfaces
 {

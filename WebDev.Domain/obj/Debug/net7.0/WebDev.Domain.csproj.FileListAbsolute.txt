@@ -1,0 +1,17 @@
+C:\HBO-ICT Jaar 4\Webdev2\T2023\WebDev.Domain\obj\Debug\net7.0\WebDev.Domain.csproj.AssemblyReference.cache
+C:\HBO-ICT Jaar 4\Webdev2\T2023\WebDev.Domain\obj\Debug\net7.0\WebDev.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\HBO-ICT Jaar 4\Webdev2\T2023\WebDev.Domain\obj\Debug\net7.0\WebDev.Domain.AssemblyInfoInputs.cache
+C:\HBO-ICT Jaar 4\Webdev2\T2023\WebDev.Domain\obj\Debug\net7.0\WebDev.Domain.AssemblyInfo.cs
+C:\HBO-ICT Jaar 4\Webdev2\T2023\WebDev.Domain\obj\Debug\net7.0\WebDev.Domain.csproj.CoreCompileInputs.cache
+C:\HBO-ICT Jaar 4\Webdev2\T2023\WebDev.Domain\bin\Debug\net7.0\WebDev.Domain.deps.json
+C:\HBO-ICT Jaar 4\Webdev2\T2023\WebDev.Domain\bin\Debug\net7.0\WebDev.Domain.dll
+C:\HBO-ICT Jaar 4\Webdev2\T2023\WebDev.Domain\bin\Debug\net7.0\WebDev.Domain.pdb
+C:\HBO-ICT Jaar 4\Webdev2\T2023\WebDev.Domain\bin\Debug\net7.0\WebDev.Data.dll
+C:\HBO-ICT Jaar 4\Webdev2\T2023\WebDev.Domain\bin\Debug\net7.0\WebDev.Domain.Model.dll
+C:\HBO-ICT Jaar 4\Webdev2\T2023\WebDev.Domain\bin\Debug\net7.0\WebDev.Data.pdb
+C:\HBO-ICT Jaar 4\Webdev2\T2023\WebDev.Domain\bin\Debug\net7.0\WebDev.Domain.Model.pdb
+C:\HBO-ICT Jaar 4\Webdev2\T2023\WebDev.Domain\obj\Debug\net7.0\WebDev.Domain.csproj.CopyComplete
+C:\HBO-ICT Jaar 4\Webdev2\T2023\WebDev.Domain\obj\Debug\net7.0\WebDev.Domain.dll
+C:\HBO-ICT Jaar 4\Webdev2\T2023\WebDev.Domain\obj\Debug\net7.0\refint\WebDev.Domain.dll
+C:\HBO-ICT Jaar 4\Webdev2\T2023\WebDev.Domain\obj\Debug\net7.0\WebDev.Domain.pdb
+C:\HBO-ICT Jaar 4\Webdev2\T2023\WebDev.Domain\obj\Debug\net7.0\ref\WebDev.Domain.dll

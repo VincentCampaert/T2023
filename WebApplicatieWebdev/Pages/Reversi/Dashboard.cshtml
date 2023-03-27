@@ -1,4 +1,8 @@
 ﻿@page
+
+@using Microsoft.AspNetCore.Components;
+@inject NavigationManager NavigationManager
+
 @model WebApplicatieWebdev.Pages.Reversi.DashboardModel
 @{
     ViewData["Title"] = "Contact Developer";
@@ -7,7 +11,7 @@
 <div class="container">
     <div class="row dashboard-header">
         <div class="btn-group" role="group" aria-label="...">
-            <button type="button" class="btn btn-default">Host Game</button>
+            <button type="button" class="btn btn-default" onclick="toHostGame()">Host Game</button>
             <button type="button" class="btn btn-default">Join Random Game</button>
             <button type="button" class="btn btn-default">Highscores</button>
         </div>
@@ -27,3 +31,9 @@
         FOOTER (GLOBAL INFORMATION)
     </div>
 </div>
+
+<script>
+    function toHostGame(){
+        DotNet.invokeMethodAsync("WebDev.Web.UI", "NavigationManager.NavigateTo", "/Reversi/HostGame");
+    }
+</script>

@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using WebDev.Data.Interfaces;
+﻿using WebDev.Data.Interfaces;
 using WebDev.Domain.Interfaces;
-using WebDev.Domain.Models;
+using WebDev.Domain.Model.Game;
 
 namespace WebDev.Domain.Services
 {
@@ -13,9 +8,9 @@ namespace WebDev.Domain.Services
     {
         private readonly IGameRepository _gameRepository;
 
-        public Task<bool> HostGameAsync(HostGameModel model, CancellationToken cancellationToken)
+        public async Task<bool> HostGameAsync(HostGameModel model, CancellationToken cancellationToken)
         {
-            throw new NotImplementedException();
+            return await _gameRepository.CreateGameAsync(model, cancellationToken);
         }
 
         public GameService(IGameRepository gameRepository)
