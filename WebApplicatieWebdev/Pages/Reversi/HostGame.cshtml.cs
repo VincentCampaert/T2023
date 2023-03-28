@@ -13,7 +13,6 @@ namespace WebDev.Web.UI.Pages.Reversi
         [BindProperty] public HostGameViewModel HostGame { get; set; }
 
         private readonly IGameProvider _gameProvider;
-        private readonly IMapper _mapper;
 
         public void OnGet()
         {
@@ -23,7 +22,7 @@ namespace WebDev.Web.UI.Pages.Reversi
         {
             if (ModelState.IsValid)
             {
-                var model = _mapper.Map<Domain.Model.Game.HostGameModel>(HostGame);
+                //var model = _mapper.Map<Domain.Model.Game.HostGameModel>(HostGame);
                 return await _gameProvider.HostGameAsync(model, cancellationToken);
             }
 

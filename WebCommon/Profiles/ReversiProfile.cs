@@ -14,6 +14,7 @@ namespace WebDev.Web.Common.Profiles
         public ReversiProfile() 
         {
             CreateMap<HostGameViewModel, HostGameModel>();
+            CreateMap<HostGameModel, HostGameViewModel>();
         }
     }
 }

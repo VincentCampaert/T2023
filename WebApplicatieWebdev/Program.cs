@@ -1,6 +1,8 @@
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using WebDev.Data.EntityFramework;
 using WebDev.Web.Common.Middleware;
+using WebDev.Web.Common.Profiles;
 
 namespace WebDev.Web.UI
 {
@@ -24,6 +26,7 @@ namespace WebDev.Web.UI
             {
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
             });
+            builder.Services.AddAutoMapper(typeof(ReversiProfile));
 
             RegisterServices(builder.Services);
 

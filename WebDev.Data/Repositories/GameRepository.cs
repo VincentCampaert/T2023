@@ -16,7 +16,6 @@ namespace WebDev.Data.Repositories
     public class GameRepository : IGameRepository
     {
         private readonly IDbContextFactory<ReversiContext> _dbContextFactory;
-        private readonly ILogger _logger;
 
         public async Task<bool> CreateGameAsync(HostGameModel model, CancellationToken cancellationToken)
         {
@@ -40,16 +39,13 @@ namespace WebDev.Data.Repositories
             }
             catch (DbException ex)
             {
-                _logger.LogError(ex.Message, model);
                 return false;
             }
         }
 
-        public GameRepository(IDbContextFactory<ReversiContext> dbContextFactory,
-            ILogger logger)
+        public GameRepository(IDbContextFactory<ReversiContext> dbContextFactory)
         {
             _dbContextFactory = dbContextFactory;
-            _logger = logger;
         }
     }
 }
