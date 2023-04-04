@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WebDev.Data.Models;
 using WebDev.Domain.Model.Game;
 using WebDev.Web.Common.ViewModels;
 
@@ -15,6 +16,12 @@ namespace WebDev.Web.Common.Profiles
         {
             CreateMap<HostGameViewModel, HostGameModel>();
             CreateMap<HostGameModel, HostGameViewModel>();
+
+            CreateMap<GameViewModel, GameModel>();
+            CreateMap<GameModel, GameViewModel>();
+
+            CreateMap<GameModel, Game>();
+            CreateMap<Game, GameModel>();
         }
     }
 }

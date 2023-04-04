@@ -1,19 +1,15 @@
 ﻿@page
-
-@using Microsoft.AspNetCore.Components;
-@inject NavigationManager NavigationManager
-
 @model WebApplicatieWebdev.Pages.Reversi.DashboardModel
 @{
-    ViewData["Title"] = "Contact Developer";
+    ViewData["Title"] = "Reversi Dashboard";
 }
 
 <div class="container">
     <div class="row dashboard-header">
         <div class="btn-group" role="group" aria-label="...">
-            <a href="/Reversi/HostGame"><button type="button" class="btn btn-default" onclick="toHostGame()">Host Game</button></a>
-            <button type="button" class="btn btn-default">Join Random Game</button>
-            <button type="button" class="btn btn-default">Highscores</button>
+            <button type="button" class="btn btn-default" id="hostGameBtn">Host Game</button>
+            <button type="button" class="btn btn-default" id="joinGameBtn">Join Random Game</button>
+            <button type="button" class="btn btn-default" id="highscoresBtn">Highscores</button>
         </div>
     </div>
     <div class="row dashboard-information">
@@ -32,8 +28,11 @@
     </div>
 </div>
 
+<partial name="Partials/_ReversiHostGamePartial" />
+
 <script>
-    function toHostGame(){
-        DotNet.invokeMethodAsync("WebDev.Web.UI", "NavigationManager.NavigateTo", "/Reversi/HostGame");
+    var btn = document.getElementById("hostGameBtn");
+    btn.onclick = function () {
+        modal.style.display = "block";
     }
 </script>

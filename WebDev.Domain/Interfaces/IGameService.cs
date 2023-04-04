@@ -9,6 +9,7 @@ namespace WebDev.Domain.Interfaces
 {
     public interface IGameService
     {
-        public Task<bool> HostGameAsync(HostGameModel model, CancellationToken cancellationToken = default);
+        public Task<int> HostGameAsync(HostGameModel model, CancellationToken cancellationToken = default);
+        public Task<bool> PlayMoveAsync(PlayMoveModel model, CancellationToken cancellationToken = default);
     }
 }

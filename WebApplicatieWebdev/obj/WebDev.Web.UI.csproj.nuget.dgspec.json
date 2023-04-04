@@ -54,6 +54,10 @@
               "target": "Package",
               "version": "[12.0.1, )"
             },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.4, )"
@@ -118,6 +122,9 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
+              "C:\\HBO-ICT Jaar 4\\Webdev2\\T2023\\WebDev.Data\\WebDev.Data.csproj": {
+                "projectPath": "C:\\HBO-ICT Jaar 4\\Webdev2\\T2023\\WebDev.Data\\WebDev.Data.csproj"
+              },
               "C:\\HBO-ICT Jaar 4\\Webdev2\\T2023\\WebDev.Domain.Model\\WebDev.Domain.Model.csproj": {
                 "projectPath": "C:\\HBO-ICT Jaar 4\\Webdev2\\T2023\\WebDev.Domain.Model\\WebDev.Domain.Model.csproj"
               }
@@ -330,6 +337,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.4, )"

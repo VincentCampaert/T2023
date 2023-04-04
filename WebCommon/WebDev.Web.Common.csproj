@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\WebDev.Data\WebDev.Data.csproj" />
     <ProjectReference Include="..\WebDev.Domain.Model\WebDev.Domain.Model.csproj" />
   </ItemGroup>
 

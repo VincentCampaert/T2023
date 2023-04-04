@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using AutoMapper;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -16,12 +17,13 @@ namespace WebDev.Data.Repositories
     public class GameRepository : IGameRepository
     {
         private readonly IDbContextFactory<ReversiContext> _dbContextFactory;
+        private readonly IMapper _mapper;
 
-        public async Task<bool> CreateGameAsync(HostGameModel model, CancellationToken cancellationToken)
+        public async Task<int> CreateGameAsync(HostGameModel model, CancellationToken cancellationToken)
         {
             try
             {
-                using (var ctx = _dbContextFactory.CreateDbContext())
+                using (var ctx = await _dbContextFactory.CreateDbContextAsync(cancellationToken))
                 {
                     var entity = new Game
                     {
@@ -32,20 +34,35 @@ namespace WebDev.Data.Repositories
                         EndDate = model.EndDate
                     };
 
-                    ctx.Games.Add(entity);
+                    var game = ctx.Games.Add(entity);
                     await ctx.SaveChangesAsync(cancellationToken);
-                    return true;
+                    return entity.Id;
                 }
             }
             catch (DbException ex)
             {
-                return false;
+                return 0;
             }
         }
 
-        public GameRepository(IDbContextFactory<ReversiContext> dbContextFactory)
+        public async Task<GameModel> GetByIdAsync(int id, CancellationToken cancellationToken)
+        {
+            if (id == 0)
+            {
+                return null;
+            }
+
+            using (var ctx = await _dbContextFactory.CreateDbContextAsync(cancellationToken))
+            {
+                return _mapper.Map<GameModel>(await ctx.Games.FirstOrDefaultAsync(x => x.Id == id, cancellationToken));
+            }
+        }
+
+        public GameRepository(IDbContextFactory<ReversiContext> dbContextFactory,
+            IMapper mapper)
         {
             _dbContextFactory = dbContextFactory;
+            _mapper = mapper;
         }
     }
 }

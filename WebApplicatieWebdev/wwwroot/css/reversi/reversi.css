@@ -1,0 +1,94 @@
+﻿/* Modal styles */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%; /* Set width to 50% of screen */
+    position: relative; /* Position modal content */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Center vertically */
+}
+
+/* Close button */
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* ===== REVERSI GAME BOARD ===== */
+#game-board {
+    background-color: #3E8948;
+    border: 1px solid #265C42;
+    table-layout: fixed;
+    width: 400px;
+    height: 400px;
+}
+
+tbody, tfoot, th, thead, tr {
+    border-color: #265C42 !important;
+    border-style: solid !important;
+    border-width: 2px !important;
+}
+
+td {
+    margin-top: -10px;
+    border-color: #265C42 !important;
+    border-style: solid !important;
+    border-width: 2px !important;
+}
+
+.tile {
+    height: 90%;
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 50%;
+}
+
+.white-tile {
+    background-color: #DDDDDD;
+}
+
+.black-tile {
+    background-color: #111111;
+}
+
+.white {
+    background-color: #DDDDDD;
+}
+
+.black {
+    background-color: #111111;
+}
+
+.detail-card {
+    position: absolute;
+    left: 40%;
+    top: -20px;
+    border-radius: 50%;
+}

@@ -4,6 +4,7 @@ namespace WebDev.Data.Interfaces
 {
     public interface IGameRepository
     {
-        public Task<bool> CreateGameAsync(HostGameModel model, CancellationToken cancellationToken = default);
+        public Task<int> CreateGameAsync(HostGameModel model, CancellationToken cancellationToken = default);
+        public Task<GameModel> GetByIdAsync(int id, CancellationToken cancellationToken = default);
     }
 }
