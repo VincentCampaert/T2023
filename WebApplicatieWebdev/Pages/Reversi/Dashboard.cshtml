@@ -1,0 +1,38 @@
+﻿@page
+@model WebApplicatieWebdev.Pages.Reversi.DashboardModel
+@{
+    ViewData["Title"] = "Reversi Dashboard";
+}
+
+<div class="container">
+    <div class="row dashboard-header">
+        <div class="btn-group" role="group" aria-label="...">
+            <button type="button" class="btn btn-default" id="hostGameBtn">Host Game</button>
+            <button type="button" class="btn btn-default" id="joinGameBtn">Join Random Game</button>
+            <button type="button" class="btn btn-default" id="highscoresBtn">Highscores</button>
+        </div>
+    </div>
+    <div class="row dashboard-information">
+        PLAYER INFORMATION
+    </div>
+    <div class="row bg-light">
+        <div class="col bg-dark">
+            PLAYER GAMES
+        </div>
+        <div class="col bg-dark">
+            OPEN LOBBY
+        </div>
+    </div>
+    <div class="row dashboard-footer">
+        FOOTER (GLOBAL INFORMATION)
+    </div>
+</div>
+
+<partial name="Partials/_ReversiHostGamePartial" />
+
+<script>
+    var btn = document.getElementById("hostGameBtn");
+    btn.onclick = function () {
+        modal.style.display = "block";
+    }
+</script>

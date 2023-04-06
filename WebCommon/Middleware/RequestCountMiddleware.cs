@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 
-namespace WebCommon.Middleware
+namespace WebDev.Web.Common.Middleware
 {
     public class RequestCountMiddleware
     {

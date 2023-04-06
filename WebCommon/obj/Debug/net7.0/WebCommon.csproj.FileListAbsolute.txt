@@ -10,3 +10,15 @@ D:\Webdev semester 2\WebApplicatieWebdev\WebCommon\obj\Debug\net7.0\WebCommon.dl
 D:\Webdev semester 2\WebApplicatieWebdev\WebCommon\obj\Debug\net7.0\refint\WebCommon.dll
 D:\Webdev semester 2\WebApplicatieWebdev\WebCommon\obj\Debug\net7.0\WebCommon.pdb
 D:\Webdev semester 2\WebApplicatieWebdev\WebCommon\obj\Debug\net7.0\ref\WebCommon.dll
+C:\HBO-ICT Jaar 4\Webdev2\T2023\WebCommon\bin\Debug\net7.0\WebCommon.deps.json
+C:\HBO-ICT Jaar 4\Webdev2\T2023\WebCommon\bin\Debug\net7.0\WebCommon.dll
+C:\HBO-ICT Jaar 4\Webdev2\T2023\WebCommon\bin\Debug\net7.0\WebCommon.pdb
+C:\HBO-ICT Jaar 4\Webdev2\T2023\WebCommon\obj\Debug\net7.0\WebCommon.csproj.AssemblyReference.cache
+C:\HBO-ICT Jaar 4\Webdev2\T2023\WebCommon\obj\Debug\net7.0\WebCommon.GeneratedMSBuildEditorConfig.editorconfig
+C:\HBO-ICT Jaar 4\Webdev2\T2023\WebCommon\obj\Debug\net7.0\WebCommon.AssemblyInfoInputs.cache
+C:\HBO-ICT Jaar 4\Webdev2\T2023\WebCommon\obj\Debug\net7.0\WebCommon.AssemblyInfo.cs
+C:\HBO-ICT Jaar 4\Webdev2\T2023\WebCommon\obj\Debug\net7.0\WebCommon.csproj.CoreCompileInputs.cache
+C:\HBO-ICT Jaar 4\Webdev2\T2023\WebCommon\obj\Debug\net7.0\WebCommon.dll
+C:\HBO-ICT Jaar 4\Webdev2\T2023\WebCommon\obj\Debug\net7.0\refint\WebCommon.dll
+C:\HBO-ICT Jaar 4\Webdev2\T2023\WebCommon\obj\Debug\net7.0\WebCommon.pdb
+C:\HBO-ICT Jaar 4\Webdev2\T2023\WebCommon\obj\Debug\net7.0\ref\WebCommon.dll

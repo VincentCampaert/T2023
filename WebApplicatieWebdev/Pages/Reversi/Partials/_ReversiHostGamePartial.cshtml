@@ -1,0 +1,63 @@
+﻿<div id="hostGameModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <form method="post" asp-page-handler="HostGame">
+            <div class="form-group row">
+                <label class="col-4 col-form-label" for="name">Game name</label>
+                <div class="col-8">
+                    <input id="name" name="name" placeholder="Name" type="text" class="form-control" aria-describedby="nameHelpBlock">
+                    <span id="nameHelpBlock" class="form-text text-muted">Not required</span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-4">Private game</label>
+                <div class="col-8">
+                    <div class="custom-control custom-checkbox custom-control-inline">
+                        <input name="privateGame" id="private_0" type="checkbox" aria-describedby="privateHelpBlock" class="custom-control-input" value="true">
+                        <label for="private_0" class="custom-control-label">Private</label>
+                    </div>
+                    <span id="privateHelpBlock" class="form-text text-muted">(If private, invite player once the lobby has been created)</span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="turnlength" class="col-4 col-form-label">Turn length</label>
+                <div class="col-8">
+                    <select id="turnlength" name="turnlength" aria-describedby="turnlengthHelpBlock" required="required" class="custom-select">
+                        <option value="1">1 hour</option>
+                        <option value="2">2 hours</option>
+                        <option value="8">8 hours</option>
+                        <option value="24">1 day</option>
+                        <option value="72">3 days</option>
+                    </select>
+                    <span id="turnlengthHelpBlock" class="form-text text-muted">Select a turn length, if a player has reached the limit, the opponent automatically wins the game</span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-4 col-form-label" for="endDate">End Date</label>
+                <div class="col-8">
+                    <input name="endDate" class="form-control" type="date" />
+                    <span id="endDateHelpBlock" class="form-text text-muted">If the game reaches this date, it will be auto concluded.'</span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="offset-4 col-8">
+                    <button name="submit" type="submit" class="btn btn-primary">Host Game</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script>
+    var modal = document.getElementById("hostGameModal");
+    var span = document.getElementsByClassName("close")[0];
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
+
+    window.addEventListener("click", function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    });
+</script>
