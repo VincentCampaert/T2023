@@ -779,19 +779,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\black\\.nuget\\packages\\": {}
+    "C:\\Users\\Niels\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\HBO-ICT Jaar 4\\Webdev2\\T2023\\WebDev.Application\\WebDev.Application.csproj",
+      "projectUniqueName": "D:\\Webdev semester 2\\T2023\\WebDev.Application\\WebDev.Application.csproj",
       "projectName": "WebDev.Application",
-      "projectPath": "C:\\HBO-ICT Jaar 4\\Webdev2\\T2023\\WebDev.Application\\WebDev.Application.csproj",
-      "packagesPath": "C:\\Users\\black\\.nuget\\packages\\",
-      "outputPath": "C:\\HBO-ICT Jaar 4\\Webdev2\\T2023\\WebDev.Application\\obj\\",
+      "projectPath": "D:\\Webdev semester 2\\T2023\\WebDev.Application\\WebDev.Application.csproj",
+      "packagesPath": "C:\\Users\\Niels\\.nuget\\packages\\",
+      "outputPath": "D:\\Webdev semester 2\\T2023\\WebDev.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\black\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Niels\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -805,11 +805,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\HBO-ICT Jaar 4\\Webdev2\\T2023\\WebDev.Application.Contracts\\WebDev.Application.Contracts.csproj": {
-              "projectPath": "C:\\HBO-ICT Jaar 4\\Webdev2\\T2023\\WebDev.Application.Contracts\\WebDev.Application.Contracts.csproj"
+            "D:\\Webdev semester 2\\T2023\\WebDev.Application.Contracts\\WebDev.Application.Contracts.csproj": {
+              "projectPath": "D:\\Webdev semester 2\\T2023\\WebDev.Application.Contracts\\WebDev.Application.Contracts.csproj"
             },
-            "C:\\HBO-ICT Jaar 4\\Webdev2\\T2023\\WebDev.Domain\\WebDev.Domain.csproj": {
-              "projectPath": "C:\\HBO-ICT Jaar 4\\Webdev2\\T2023\\WebDev.Domain\\WebDev.Domain.csproj"
+            "D:\\Webdev semester 2\\T2023\\WebDev.Domain\\WebDev.Domain.csproj": {
+              "projectPath": "D:\\Webdev semester 2\\T2023\\WebDev.Domain\\WebDev.Domain.csproj"
             }
           }
         }
@@ -845,7 +845,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

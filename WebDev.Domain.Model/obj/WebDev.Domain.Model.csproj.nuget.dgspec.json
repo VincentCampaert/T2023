@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\HBO-ICT Jaar 4\\Webdev2\\T2023\\WebDev.Domain.Model\\WebDev.Domain.Model.csproj": {}
+    "D:\\Webdev semester 2\\T2023\\WebDev.Domain.Model\\WebDev.Domain.Model.csproj": {}
   },
   "projects": {
-    "C:\\HBO-ICT Jaar 4\\Webdev2\\T2023\\WebDev.Domain.Model\\WebDev.Domain.Model.csproj": {
+    "D:\\Webdev semester 2\\T2023\\WebDev.Domain.Model\\WebDev.Domain.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\HBO-ICT Jaar 4\\Webdev2\\T2023\\WebDev.Domain.Model\\WebDev.Domain.Model.csproj",
+        "projectUniqueName": "D:\\Webdev semester 2\\T2023\\WebDev.Domain.Model\\WebDev.Domain.Model.csproj",
         "projectName": "WebDev.Domain.Model",
-        "projectPath": "C:\\HBO-ICT Jaar 4\\Webdev2\\T2023\\WebDev.Domain.Model\\WebDev.Domain.Model.csproj",
-        "packagesPath": "C:\\Users\\black\\.nuget\\packages\\",
-        "outputPath": "C:\\HBO-ICT Jaar 4\\Webdev2\\T2023\\WebDev.Domain.Model\\obj\\",
+        "projectPath": "D:\\Webdev semester 2\\T2023\\WebDev.Domain.Model\\WebDev.Domain.Model.csproj",
+        "packagesPath": "C:\\Users\\Niels\\.nuget\\packages\\",
+        "outputPath": "D:\\Webdev semester 2\\T2023\\WebDev.Domain.Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\black\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Niels\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
