@@ -8,22 +8,9 @@
     <script src="~/js/reversi.app.js"></script>
 }
 
-@section Styles {
-    <link rel="stylesheet" href="~/css/gamestats.css" />
-}
-
+<link rel="stylesheet" href="~/css/gamestats.css" />
 <div ng-app="reversiApp" ng-controller="reversiController as vm">
     <section class="bg-light py-5 py-xl-6">
-      <div class="container mb-5 mb-md-6">
-        <div class="row justify-content-md-center">
-          <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6 text-center">
-            <h2 class="mb-4 display-5">Achievements</h2>
-            <p class="text-secondary mb-4 mb-md-5">Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque et neque id ligula mattis commodo.</p>
-            <hr class="w-50 mx-auto mb-0 text-secondary">
-          </div>
-        </div>
-      </div>
-
       <div class="container overflow-hidden">
         <div class="row gy-5 gy-md-6 gy-lg-0">
           <div class="col-6 col-lg-3">
@@ -34,7 +21,7 @@
                 </svg>
               </div>
               <h5 class="display-6 fw-bold m-1">120K</h5>
-              <p class="text-secondary m-0">Happy Customers</p>
+              <p class="text-secondary m-0">Current Player</p>
             </div>
           </div>
           <div class="col-6 col-lg-3">
@@ -45,7 +32,7 @@
                 </svg>
               </div>
               <h5 class="display-6 fw-bold m-1">1890+</h5>
-              <p class="text-secondary m-0">Issues Solved</p>
+              <p class="text-secondary m-0">Current Turn</p>
             </div>
           </div>
           <div class="col-6 col-lg-3">
@@ -56,7 +43,7 @@
                 </svg>
               </div>
               <h5 class="display-6 fw-bold m-1">250K</h5>
-              <p class="text-secondary m-0">Finished Projects</p>
+              <p class="text-secondary m-0">Turn-time remaining</p>
             </div>
           </div>
           <div class="col-6 col-lg-3">
@@ -68,7 +55,7 @@
                 </svg>
               </div>
               <h5 class="display-6 fw-bold m-1">786+</h5>
-              <p class="text-secondary m-0">Awwwards Winning</p>
+              <p class="text-secondary m-0">Game's end date</p>
             </div>
           </div>
         </div>
