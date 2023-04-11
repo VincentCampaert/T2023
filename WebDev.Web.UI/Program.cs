@@ -22,9 +22,11 @@ namespace WebDev.Web.UI
             });
             builder.Services.AddDbContextFactory<ReversiContext>(options =>
             {
-                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"),
+                    x => x.MigrationsAssembly("WebDev.Data"));
             });
             builder.Services.AddAutoMapper(typeof(ReversiProfile));
+            builder.Services.AddHttpContextAccessor();
 
             RegisterServices(builder.Services);
 

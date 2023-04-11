@@ -16,6 +16,8 @@ namespace WebDev.Application.Configuration
         {
             services.AddScoped<IDashboardProvider, DashboardProvider>();
             services.AddScoped<IGameProvider, GameProvider>();
+            services.AddScoped<IPersonProvider, PersonProvider>();
+            services.AddScoped<IUserProvider, UserProvider>();
         }
     }
 }

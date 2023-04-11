@@ -31,7 +31,10 @@ namespace WebDev.Data.Repositories
                         Player1Id = model.HostId,
                         Private = model.PrivateGame,
                         TurnLength = model.TurnLength,
-                        EndDate = model.EndDate
+                        EndDate = model.EndDate,
+                        CurrentSide = 0,
+                        CurrentTurn = 0,
+                        Started = false
                     };
 
                     var game = ctx.Games.Add(entity);

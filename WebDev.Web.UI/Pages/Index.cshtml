@@ -1,10 +1,41 @@
 ﻿@page
+
+@using Microsoft.AspNetCore.Authorization
+@inject IAuthorizationService AuthorizationService
+
 @model IndexModel
 @{
     ViewData["Title"] = "Home page";
+    var authenticated = HttpContext.User.Identity.IsAuthenticated;
 }
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+<div class="navbar-collapse collapse d-sm-inline-flex justify-content-end">
+    <ul class="navbar-nav flex-grow-1">
+        @if (!authenticated)
+        {
+            <li class="nav-item">
+                <button type="button" class="btn btn-light" id="loginBtn">Login</button>
+            </li>
+        } else
+        {
+            <li class="nav-item">
+                <button type="button" class="btn btn-light">Logout</button>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-area="" asp-page="/Reversi/Dashboard">Reversi</a>
+            </li>
+        }
+    </ul>
+
+    <partial name="Partials/_Login" />
+</div>
+
+<script>
+    var btn = document.getElementById("loginBtn");
+    btn.onclick = function () {
+        modal.style.display = "block";
+    }
+</script>

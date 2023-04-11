@@ -14,6 +14,7 @@ namespace WebDev.Domain.Configuration
         public static void RegisterServices(IServiceCollection services)
         {
             services.AddScoped<IGameService, GameService>();
+            services.AddScoped<IUserService, UserService>();
         }
     }
 }

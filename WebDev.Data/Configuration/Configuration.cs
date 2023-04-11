@@ -14,6 +14,8 @@ namespace WebDev.Data.Configuration
         public static void RegisterServices(IServiceCollection services)
         {
             services.AddScoped<IGameRepository, GameRepository>();
+            services.AddScoped<IPersonRepository, PersonRepository>();
+            services.AddScoped<IUserRepository, UserRepository>();
         }
     }
 }
