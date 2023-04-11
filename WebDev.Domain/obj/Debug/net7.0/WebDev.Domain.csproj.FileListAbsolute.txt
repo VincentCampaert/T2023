@@ -1,0 +1,17 @@
+D:\Webdev semester 2\T2023\WebDev.Domain\obj\Debug\net7.0\WebDev.Domain.csproj.AssemblyReference.cache
+D:\Webdev semester 2\T2023\WebDev.Domain\obj\Debug\net7.0\WebDev.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Webdev semester 2\T2023\WebDev.Domain\obj\Debug\net7.0\WebDev.Domain.AssemblyInfoInputs.cache
+D:\Webdev semester 2\T2023\WebDev.Domain\obj\Debug\net7.0\WebDev.Domain.AssemblyInfo.cs
+D:\Webdev semester 2\T2023\WebDev.Domain\obj\Debug\net7.0\WebDev.Domain.csproj.CoreCompileInputs.cache
+D:\Webdev semester 2\T2023\WebDev.Domain\bin\Debug\net7.0\WebDev.Domain.deps.json
+D:\Webdev semester 2\T2023\WebDev.Domain\bin\Debug\net7.0\WebDev.Domain.dll
+D:\Webdev semester 2\T2023\WebDev.Domain\bin\Debug\net7.0\WebDev.Domain.pdb
+D:\Webdev semester 2\T2023\WebDev.Domain\bin\Debug\net7.0\WebDev.Data.dll
+D:\Webdev semester 2\T2023\WebDev.Domain\bin\Debug\net7.0\WebDev.Domain.Model.dll
+D:\Webdev semester 2\T2023\WebDev.Domain\bin\Debug\net7.0\WebDev.Data.pdb
+D:\Webdev semester 2\T2023\WebDev.Domain\bin\Debug\net7.0\WebDev.Domain.Model.pdb
+D:\Webdev semester 2\T2023\WebDev.Domain\obj\Debug\net7.0\WebDev.Domain.csproj.CopyComplete
+D:\Webdev semester 2\T2023\WebDev.Domain\obj\Debug\net7.0\WebDev.Domain.dll
+D:\Webdev semester 2\T2023\WebDev.Domain\obj\Debug\net7.0\refint\WebDev.Domain.dll
+D:\Webdev semester 2\T2023\WebDev.Domain\obj\Debug\net7.0\WebDev.Domain.pdb
+D:\Webdev semester 2\T2023\WebDev.Domain\obj\Debug\net7.0\ref\WebDev.Domain.dll

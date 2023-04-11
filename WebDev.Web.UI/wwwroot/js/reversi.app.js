@@ -1,4 +1,4 @@
-angular.module('reversiApp', ['ngRoute']).controller('reversiController', function ($scope, reversiService, $routeParams) {
+angular.module('reversiApp', ['ngRoute']).controller('reversiController', function ($scope, reversiService) {
     var vm = this;
 
     vm.gameData = null;
@@ -14,7 +14,7 @@ angular.module('reversiApp', ['ngRoute']).controller('reversiController', functi
     };
 
     function initGame() {
-        var gameId = $routeParams.id;
+        var gameId = location.pathname.split('/')[3];
 
         reversiService.getGameData(gameId).then(function (response) {
             vm.gameData = response;
@@ -40,11 +40,17 @@ angular.module('reversiApp', ['ngRoute']).controller('reversiController', functi
     }
 
 }).factory('reversiService', function ($http) {
-    var baseUrl = "/Game/";
+    var baseUrl = location.pathname.split('/')[3] + "/";
 
     return {
         getGameData: function (id) {
-            return $http.get(baseUrl + 'GetGameDetails', id);
+            return $http({
+                method: 'GET',
+                url: 'GetGameDetails/' + id,
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            });
         },
 
         postPlayMove: function (model) {

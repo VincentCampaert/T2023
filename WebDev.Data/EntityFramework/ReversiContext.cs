@@ -10,13 +10,14 @@ namespace WebDev.Data.EntityFramework
         public DbSet<User> Users { get; set; }
         public DbSet<Person> Persons { get; set; }
         public DbSet<Game> Games { get; set; }
-
+        public DbSet<BoardTile> BoardTiles { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<User>().ToTable("User");
             modelBuilder.Entity<Person>().ToTable("Person");
             modelBuilder.Entity<Game>().ToTable("Game");
+            modelBuilder.Entity<BoardTile>().ToTable("BoardTiles");
         }
     }
 }

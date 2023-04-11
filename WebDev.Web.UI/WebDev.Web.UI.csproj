@@ -32,9 +32,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\WebCommon\WebDev.Web.Common.csproj" />
     <ProjectReference Include="..\WebDev.Application.Contracts\WebDev.Application.Contracts.csproj" />
     <ProjectReference Include="..\WebDev.Application\WebDev.Application.csproj" />
+    <ProjectReference Include="..\WebDev.Web.Common\WebDev.Web.Common.csproj" />
   </ItemGroup>
 
 </Project>

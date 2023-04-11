@@ -58,6 +58,16 @@ namespace WebDev.Data.Repositories
             }
         }
 
+        public async Task PlayMoveAsync(PlayMoveModel model, CancellationToken cancellationToken = default)
+        {
+            using (var ctx = await _dbContextFactory.CreateDbContextAsync(cancellationToken))
+            {
+                var boardTile = _mapper.Map<BoardTile>(model);
+                ctx.BoardTiles.Add(boardTile);
+                await ctx.SaveChangesAsync(cancellationToken);
+            }
+        }
+
         public GameRepository(IDbContextFactory<ReversiContext> dbContextFactory,
             IMapper mapper)
         {

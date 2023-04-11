@@ -41,9 +41,17 @@ namespace WebDev.Application.Providers
             return await _gameRepository.GetByIdAsync(id, cancellationToken);
         }
 
-        public Task<bool> PlayMoveAsync(PlayMoveModel model, CancellationToken cancellationToken = default)
+        public async Task<bool> PlayMoveAsync(PlayMoveModel model, CancellationToken cancellationToken = default)
         {
-
+            try
+            {
+                await _gameRepository.PlayMoveAsync(model, cancellationToken);
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
         }
 
         public GameProvider(IGameService gameService,

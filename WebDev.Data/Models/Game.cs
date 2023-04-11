@@ -14,5 +14,8 @@ namespace WebDev.Data.Models
         public bool Private { get; set; }
         public int TurnLength { get; set; }
         public DateTime EndDate { get; set; }
+        public bool Started { get; set; }
+        public int CurrentTurn { get; set; }
+        public int CurrentSide { get; set; }
     }
 }

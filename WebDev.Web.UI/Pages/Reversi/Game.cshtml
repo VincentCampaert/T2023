@@ -1,4 +1,4 @@
-﻿@page
+﻿@page "{id}"
 @model WebDev.Web.UI.Pages.Reversi.GameModel
 @{
     ViewData["Title"] = "Reversi Game";
@@ -12,9 +12,9 @@
     <div class="row w-100">
         <div class="col-md-3">
             <div class="card border-info mx-sm-1 p-3">
-                <div class="card border-info shadow text-info p-3 detail-card"><span class="fa fa-car" aria-hidden="true"> Current Turn: {{  }}</span></div>
-                <div class="text-info text-center mt-3"><h4>Cars</h4></div>
-                <div class="text-info text-center mt-2"><h1>234</h1></div>
+                <div class="card border-info shadow text-info p-3 detail-card"><span class="fa fa-car" aria-hidden="true"></span></div>
+                <div class="text-info text-center mt-3"><h4>Current Turn</h4></div>
+                <div class="text-info text-center mt-2"><h1>{{ vm.gameData.currentTurn }}</h1></div>
             </div>
         </div>
         <div class="col-md-3">

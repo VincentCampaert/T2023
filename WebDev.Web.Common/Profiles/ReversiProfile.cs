@@ -22,6 +22,11 @@ namespace WebDev.Web.Common.Profiles
 
             CreateMap<GameModel, Game>();
             CreateMap<Game, GameModel>();
+
+            CreateMap<PlayMoveViewModel, PlayMoveModel>();
+            CreateMap<PlayMoveModel, PlayMoveViewModel>();
+            CreateMap<PlayMoveModel, BoardTile>()
+                .ForMember(dm => dm.BoardId, mp => mp.MapFrom(sm => sm.GameId));
         }
     }
 }

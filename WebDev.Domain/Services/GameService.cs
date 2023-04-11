@@ -41,7 +41,7 @@ namespace WebDev.Domain.Services
                 return false;
             }
 
-            var currentTiles = _gameRepository.GetCurrentTilesByGameId();
+            return true;
         }
 
         public GameService(IGameRepository gameRepository)
